@@ -7,5 +7,7 @@ int main()
   scanf("%d", &idade);
   printf("A sua idade e' %d\n", idade);
   printf("No proximo ano tera' %d\n", idade+1);
+
+  printf("Bye\n\n");
   return 0;
 }
