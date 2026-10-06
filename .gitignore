@@ -1,0 +1,86 @@
+# Object files
+*.o
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.a
+*.la
+*.lo
+*.so
+*.so.*
+
+# Executables (com e sem extensão)
+*.exe
+*.out
+a.out
+*.app
+
+# === Impedir ficheiros SEM extensão (executáveis no Linux) ===
+*
+!*/
+!*.*
+!Makefile
+!makefile
+!CMakeLists.txt
+!README
+!README.md
+!LICENSE
+!.gitignore
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+core.*
+
+# Dependency files
+*.d
+
+# CMake / Build
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+cmake-build-*/
+build/
+out/
+bin/
+obj/
+
+# Autotools
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.h
+config.h.in
+config.log
+config.status
+configure
+libtool
+stamp-h1
+.deps/
+.libs/
+
+# Editor / IDE
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+*.code-workspace
+
+# Ubuntu / Linux
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.log
